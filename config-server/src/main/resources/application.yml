@@ -1,7 +1,12 @@
 
-
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
 server:
-  port: 8888
+  port: 8887
+  tomcat:
+    max-http-header-size: 3145728
 
 spring:
   application:
@@ -10,4 +15,8 @@ spring:
     config:
       server:
         git:
-          uri:
+          uri: https://github.com/vellerzheng/mbootcloud
+          search-paths: respo
+          username: ********
+          password: ********
+      label: master

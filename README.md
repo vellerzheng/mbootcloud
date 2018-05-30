@@ -46,7 +46,9 @@
    ![注册中心](./doc/eurekaserver.png)
    
 ### hystrix 仪表盘
+
    ![仪表盘](./doc/Dashboard.png)
+   
    ![仪表盘stream](./doc/DashboardStream.png)    
  
 ## reference

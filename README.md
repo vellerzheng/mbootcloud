@@ -43,13 +43,14 @@
  
 ## 模块视图简介
 ### 注册中心
-   ![注册中心](./doc/eurekaserver.png)
+ 
+ ![注册中心](./doc/eurekaserver.png)
    
 ### hystrix 仪表盘
 
-   ![仪表盘](./doc/Dashboard.png)
+ ![仪表盘](./doc/Dashboard.png)
    
-   ![仪表盘stream](./doc/DashboardStream.png)    
+ ![仪表盘stream](./doc/DashboardStream.png)    
  
 ## reference
  https://blog.csdn.net/forezp/article/details/70148833

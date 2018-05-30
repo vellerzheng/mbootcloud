@@ -17,14 +17,14 @@
         |	├── micro-serviceB -- 服务消费B[端口 8763] 
         |
         |———micro-loadbalanced  --服务分发（负载均衡）  
-        |	├── ribbon-consumer --服务分发（rest+ribbon） [端口 8764] 	
-        |	|── feign-server  --服务分发（feign）       [端口 8765] 
+        |	├── service-ribbon --服务分发（rest+ribbon） [端口 8764] 	
+        |	|── service-feign  --服务分发（feign）       [端口 8765] 
         |
         |── micro-hystrix- -- 服务分发（负载均衡)[断路器\服务消费+（Hystrix)+(Hystrix 仪表盘)]
         |	├── ribbon-hystrix -- (ribbon+hystrix)  [端口 8766] 
         |	├── feign-hystrix  -- (feign+hystrix)   [端口 8765]
         |
-        |── micro-route-zuul  --路由网关(zuul)            [端口 8401] 
+        |── micro-sevice-zuul  --路由网关(zuul)            [端口 8769] 
         |
         |── micro-config  --  分布式配置中心（高可用的分布式配置中心）(Spring Cloud Config)
         |	├── micro-config-client --配置中心服务端Config Server [端口 8401] 	

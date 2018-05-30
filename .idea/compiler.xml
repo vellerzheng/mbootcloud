@@ -12,6 +12,8 @@
         <module name="ribbonconsumer" />
         <module name="service-feign" />
         <module name="service-hystrix" />
+        <module name="service-ribbon" />
+        <module name="service-zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -21,6 +23,8 @@
       <module name="ribbonconsumer" target="1.8" />
       <module name="service-feign" target="1.8" />
       <module name="service-hystrix" target="1.8" />
+      <module name="service-ribbon" target="1.8" />
+      <module name="service-zuul" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

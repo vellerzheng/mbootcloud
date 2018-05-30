@@ -1,4 +1,4 @@
-package com.avant.ribbonconsumer;
+package com.avant.serviceribbon;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
@@ -11,11 +11,11 @@ import org.springframework.web.client.RestTemplate;
 @EnableAutoConfiguration
 @EnableDiscoveryClient
 @SpringBootApplication
-public class RibbonconsumerApplication {
+public class ServiceRibbonApplication {
 
 	public static void main(String[] args) {
 
-	    SpringApplication.run(RibbonconsumerApplication.class, args);
+	    SpringApplication.run(ServiceRibbonApplication.class, args);
 	}
 
     /**

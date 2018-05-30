@@ -1,6 +1,6 @@
 spring:
   application:
-    name: ribbon-consumer
+    name: service-ribbon
 server:
   port: 8764
 eureka:

@@ -8,7 +8,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>ribbonconsumer</name>
+	<name>service-ribbon</name>
 	<description>Project for Spring Ribbon</description>
 
 	<parent>

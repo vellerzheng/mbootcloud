@@ -5,9 +5,10 @@
       <module fileurl="file://$PROJECT_DIR$/eurekaclient/eurekaclient.iml" filepath="$PROJECT_DIR$/eurekaclient/eurekaclient.iml" />
       <module fileurl="file://$PROJECT_DIR$/eurekaserver/eurekaserver.iml" filepath="$PROJECT_DIR$/eurekaserver/eurekaserver.iml" />
       <module fileurl="file://$PROJECT_DIR$/mbootcloud.iml" filepath="$PROJECT_DIR$/mbootcloud.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ribbonconsumer/ribbonconsumer.iml" filepath="$PROJECT_DIR$/ribbonconsumer/ribbonconsumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-feign/service-feign.iml" filepath="$PROJECT_DIR$/service-feign/service-feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-hystrix/service-hystrix.iml" filepath="$PROJECT_DIR$/service-hystrix/service-hystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-ribbon/service-ribbon.iml" filepath="$PROJECT_DIR$/service-ribbon/service-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-zuul/service-zuul.iml" filepath="$PROJECT_DIR$/service-zuul/service-zuul.iml" />
     </modules>
   </component>
 </project>

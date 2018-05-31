@@ -1,0 +1,16 @@
+spring:
+  rabbitmq:
+    addresses: **.**.**.**
+    port: 5672
+    username: ***
+    password: ***
+    virtual-host: /
+
+#暴露接口
+#请求配置文件刷新：http://localhost:8881/actuator/bus-refresh,
+#                  也可以制定运用刷新：http://localhost:8881/actuator/bus-refresh/config-client:8881
+management:
+  endpoints:
+    web:
+      exposure:
+        include: ["health","info","bus-refresh"]

@@ -27,8 +27,8 @@
         |── micro-sevice-zuul  --路由网关(zuul)            [端口 8769] 
         |
         |── micro-config  --  分布式配置中心（高可用的分布式配置中心）(Spring Cloud Config)
-        |	├── micro-config-client --配置中心服务端Config Server [端口 8401] 	
-        |	|── micro-config-server --配置中心服务端Config Client [端口 8402] 
+        |	├── config-server --配置中心服务端Config Server [端口 8401] 	
+        |	|── config-client --配置中心服务端Config Client [端口 8402] 
         |
         |── micro-sleuth-samples  --   服务链路追踪(Spring Cloud Sleuth)
         |	├── micro-server-zipkin  --zipkin数据收集中心  [端口 8501] 	

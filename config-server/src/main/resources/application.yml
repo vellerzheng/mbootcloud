@@ -4,7 +4,8 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
 server:
-  port: 8887
+  #application.yml文件只能是8888端口，用bootstrap.properties文件，可以配置其他端口
+  port: 8888
   tomcat:
     max-http-header-size: 3145728
 
@@ -13,10 +14,11 @@ spring:
     name: config-server
   cloud:
     config:
+      label: master
       server:
         git:
           uri: https://github.com/vellerzheng/mbootcloud
-          search-paths: respo
-          username: ********
-          password: ********
-      label: master
+          search-paths: conf_file_center
+          username: *******
+          password: *******
+

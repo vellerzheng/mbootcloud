@@ -1,11 +1,19 @@
+spring:
+  application:
+    name: eureka-server-peer2
+  profiles:
+    active: localhost
 server:
   port: 8869
 
-spring:
-  profiles: peer2
+
 eureka:
   instance:
-    hostname: peer2
+    hostname: localhost
   client:
+    register-with-eureka: false
+    fetch-registry: false
     serviceUrl:
       defaultZone: http://peer1:8861/eureka/
+
+#peer1 为另外一台部署eurekaserver 的ip,每次编译一个yml文件，生成对应的jar包
